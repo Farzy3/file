@@ -90,7 +90,7 @@ nav ul {
 
 .card {
     width: 300px;
-    background-color: #F3FFEE;
+    background-color: #ececec;
     border-radius: 24px;
     border: 2px solid #333;
 }
@@ -100,7 +100,7 @@ nav ul {
     margin: 0 auto;
     border-radius: 24px;
     bottom: 2px solid #333;
-    background-color: #F3FFEE;
+    background-color: white;
     padding: 60px 50px;
 }
 
@@ -163,4 +163,3 @@ transform: rotate(45deg);
 .card:hover{
 transform: scale(1.1)
 }
-
