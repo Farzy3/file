@@ -3,30 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Цветочная лавка мадам Дюваль</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>
-        <h1>Загрузка на Github pages</h1>
-    </header>
-
     <main>
-
-        <h2></h2>
-        <section>
-
-            <div class="cat_box cb1">наш</div>
-            <div class="cat_box cb2">первый</div>
-            <div class="cat_box cb3">тестовый</div>
-            <div class="cat_box cb4">сайт</div>
+        <section class="catalog">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="popular">💓</span>
+                            </div>
+                            <div class="filter-text">Популярные</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="high">❓</span>
+                            </div>
+                            <div class="filter-text">для чего нужны мото кроссоввые мотоциклы</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="filter">
+                            <div class="filter-icon">
+                                <span class="early">🏍️</span>
+                            </div>
+                            <div class="filter-text">регистрация на выставку</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="list">
+                <article class="card">
+                    <img src="roses.png" alt="Розы">
+                </article>
+                <article class="card">
+                    <img src="violet.png" alt="Фиалки">
+                </article>
+                <article class="card">
+                    <img src="monstera.png" alt="Монстера">
+                </article>
+            </div>
         </section>
+        <section class="order">
+            <form id="order-form" action="">
+                <div class="field">
+                    <input class="input" name="fullname" id="fullname" type="text" placeholder="Фамилия и имя">
+                </div>
+                <div class="field">
+                    <input class="input" name="phone" type="text" placeholder="Телефон";>
+                </div>
+                <div class="field">
+                    <input class="input" name="pochta" type="text" placeholder="Адрес электронной почты";>
+                </div>
+                <div class="field">
+                    <input class="checkbox" name="checkbox" id="Ne_zvonit" type="checkbox">
+                    <label for="Ne_zvonit">Отправлять рассылку о выстовках на вашу электронную почту
 
-
+                    </label>
+                </div>
+                <input type="submit" value="Заказать" class="submit-btn">
+            </form>
+        </section>
     </main>
-
-    
-    
 </body>
 </html>
