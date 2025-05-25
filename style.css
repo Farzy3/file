@@ -166,7 +166,14 @@ p{
     justify-content: center;
     color: white;
 }
-/* Напиши код ниже */
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
 .filter span{
 transition: 0.3s;
 }
