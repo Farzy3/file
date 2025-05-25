@@ -166,39 +166,6 @@ p{
     justify-content: center;
     color: white;
 }
-/* Планшеты (от 768px) */
-@media (min-width: 768px) {
-    .records-container {
-        width: 80%;
-    }
-    
-    .records-container h2 {
-        font-size: 22px;
-    }
-    
-    .record-item h3 {
-        font-size: 20px;
-    }
-    
-    .record-item p {
-        font-size: 16px;
-    }
-}
-
-/* Планшеты в горизонтальной ориентации (от 1024px) */
-@media (min-width: 1024px) {
-    
-    .records-container {
-        width: 70%;
-    }
-}
-
-/* Десктопы (от 1280px) */
-@media (min-width: 1280px) {
-    .records-container {
-        width: 60%;
-    }
-}
 .filter span{
 transition: 0.3s;
 }
