@@ -166,26 +166,6 @@ p{
     justify-content: center;
     color: white;
 }
-@media (min-width: 768px) {
-  .catalog {
-  display: flex;
-  flex-direction: column;
-}
-}
-
-@media (min-width: 1024px) {
- .catalog {
-  display: flex;
-  flex-direction: row;
-}
-}
-
-@media (min-width: 1280px) {
-  .catalog {
-  display: flex;
-  flex-direction: row;
-}
-}
 .filter span{
 transition: 0.3s;
 }
